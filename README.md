@@ -3,6 +3,9 @@
 ## Description
 Ce projet a pour objectif de **détecter les transactions frauduleuses sur un dataset de cartes de crédit** en utilisant des techniques de **Deep Learning**. Le modèle apprend à partir de données historiques pour prédire si une transaction est frauduleuse ou non. Ce projet met l'accent sur l'utilisation de métriques telles que la **précision**, le **rappel**, le **F1-score** et la **courbe ROC** pour évaluer les performances du modèle, tout en traitant le problème de **déséquilibre des classes** avec la technique **SMOTE**.
 
+## Dataset
+Le dataset utilisé dans ce projet provient de **Kaggle**.
+
 ## Objectifs
 - **Prédiction des transactions frauduleuses** sur un dataset de cartes de crédit.
 - Utilisation des techniques de **Deep Learning** pour apprendre les patterns de fraude.
@@ -23,3 +26,4 @@ Vous pouvez installer les dépendances nécessaires via `pip` :
 
 ```bash
 pip install tensorflow scikit-learn imbalanced-learn matplotlib seaborn
+
